@@ -2,23 +2,27 @@ body{
   text-align: center;
   background-color: #3c3c48;
 }
-
 .title-heading{
   color: #67d7a3;
   padding: 20px 0;
   font-size: 8rem;
-  font-family: fantasy;
+  font-family: 'Racing Sans One', cursive;
 }
 .throw-btn{
   margin-bottom: 20px;
   background-color: #f0bbd1;
-  border-color: #f75a94;
+  font-size: 20px;
+  font-family: 'Racing Sans One', cursive;
+  transition: .5s;
 }
 .throw-btn:hover{
   background-color: #f75a94;
   border-color: #e2368d;
 }
-
+.throw-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
 .dice-img{
   width: 30%;
 }
@@ -27,7 +31,7 @@ body{
   color: #6bb697;
   padding-bottom: 20px;
   font-size: 4rem;
-  font-family: cursive;
+  font-family: 'Lobster', cursive;
 }
 
 .color-winner{
