@@ -10,8 +10,10 @@ function throwDice(){
   document.getElementById("img-player2").setAttribute("src",imgPath2);
 
   var result;
+  let player1 = document.getElementById("player1").value;
+  let player2 = document.getElementById("player2").value;
   if(valPlayer1>valPlayer2){
-    result="Player 1 won!";
+    result=player1+" won!";
     document.getElementById("player1").classList.add("color-winner");
     document.getElementById("player2").classList.remove("color-winner");
     document.getElementById("player2").classList.remove("color-draw");
@@ -21,7 +23,7 @@ function throwDice(){
     document.getElementById("player2").classList.add("color-draw");
     document.getElementById("player1").classList.add("color-draw");
   }else{
-    result="Player 2 won!";
+    result=player2+" won!";
     document.getElementById("player2").classList.add("color-winner");
     document.getElementById("player1").classList.remove("color-winner");
     document.getElementById("player2").classList.remove("color-draw");

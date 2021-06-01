@@ -35,10 +35,10 @@ body{
 }
 
 .color-winner{
-  color:#c09d19;
+  color:#c09d19 !important;
 }
 .color-draw{
-  color:#fedcba;
+  color:#fedcba !important;
 }
 .inputName{
   background-color: #3c3c48;
