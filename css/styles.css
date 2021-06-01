@@ -2,6 +2,9 @@ body{
   text-align: center;
   background-color: #3c3c48;
 }
+.dice{
+  text-align: center;
+}
 .title-heading{
   color: #67d7a3;
   padding: 20px 0;
@@ -41,6 +44,9 @@ body{
   color:#fedcba !important;
 }
 .inputName{
+  margin: auto;
+  max-width: 300px;
+  display:block;
   background-color: #3c3c48;
   font-size: 40px;
   font-family: 'Lobster', cursive;
