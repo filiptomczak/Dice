@@ -1,0 +1,38 @@
+body{
+  text-align: center;
+  background-color: #3c3c48;
+}
+
+.title-heading{
+  color: #67d7a3;
+  padding: 20px 0;
+  font-size: 8rem;
+  font-family: fantasy;
+}
+.throw-btn{
+  margin-bottom: 20px;
+  background-color: #f0bbd1;
+  border-color: #f75a94;
+}
+.throw-btn:hover{
+  background-color: #f75a94;
+  border-color: #e2368d;
+}
+
+.dice-img{
+  width: 30%;
+}
+
+.player-heading{
+  color: #6bb697;
+  padding-bottom: 20px;
+  font-size: 4rem;
+  font-family: cursive;
+}
+
+.color-winner{
+  color:#c09d19;
+}
+.color-draw{
+  color:#fedcba;
+}
