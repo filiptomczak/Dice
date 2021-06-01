@@ -40,3 +40,15 @@ body{
 .color-draw{
   color:#fedcba;
 }
+.inputName{
+  background-color: #3c3c48;
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
+  color: #67d7a3;
+  border:none;
+  text-align: center;
+}
+*:focus {
+  outline: none;
+  box-shadow: none;
+}
